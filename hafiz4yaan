@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hafiz Ayaan Siddiqui</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <!-- HEADER -->
+    <h1 class="title">Hafiz Ayaan Siddiqui📊</h1>
+    <p class="subtitle">💰 Analyze • Learn • Improve. 🎯</p>
+    <p class="seconds">15 SECONDS</p>
+
+    <!-- PROFILE PHOTO -->
+    <div class="profile-circle">
+        <img src="ayaans-photo.jpg" alt="Ayaan Siddiqui">
+    </div>
+
+    <!-- SUBSCRIBERS INFO -->
+    <p class="subscribers">54,000 Subscribers</p>
+    <p class="match">✅ Game, Set, Match!</p>
+
+    <!-- JOIN BUTTON -->
+    <a href="https://t.me/+XbZqKMMu5xQwNjE0" class="btn-join" target="_blank">JOIN NOW FOR FREE</a>
+
+    <!-- EXTRA TEXT -->
+    <p class="extra">💎 Precision. Power. Passion 🌎 – Join Now</p>
+
+    <!-- DISCLAIMER BOX -->
+    <div class="disclaimer-box">
+        <strong>Disclaimer:</strong> All trading and game-related activities involve risk. 
+        Hafiz Ayaan Siddiqui provides information for educational and entertainment purposes only. 
+        Please do it responsibly.
+    </div>
+
+    <!-- FOOTER LINKS -->
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+    </div>
+
+</div>
+</body>
+</html>
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    text-align: center;
+    color: #000;
+}
+
+.container {
+    padding: 30px;
+}
+
+.title {
+    font-size: 28px;
+    color: #1e64ff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin: 0;
+}
+
+.seconds {
+    font-size: 22px;
+    color: #ff5700;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-circle {
+    width: 170px;
+    height: 170px;
+    border: 6px solid #337bf5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.profile-circle img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.subscribers {
+    font-size: 22px;
+    color: #1d4cf8;
+    font-weight: 600;
+}
+
+.match {
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+.btn-join {
+    background: linear-gradient(90deg, #3c8aff, #1a6eff);
+    padding: 14px 40px;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.extra {
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.disclaimer-box {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 14px;
+    margin: 25px 15px 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.footer-links {
+    font-size: 15px;
+    color: #0075ff;
+    margin-top: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #0075ff;
+}
